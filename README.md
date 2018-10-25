@@ -21,13 +21,12 @@ Build:                dotnet build
 Run locally:          dotnet run
                       Open a browser and view: http://localhost:5000/
                       Ctrl+C to quit the dotnet run
+Publish locally:      dotnet publish  
 Change directory:     cd ..
-Download Files:       By hand or wget
+Download Files:       By hand or wget these 3 files (Dockerfile, start-server.sh, azurewebsites.net)
                       wget https://raw.githubusercontent.com/AdamPaternostro/azure-web-app-nginx-reverse-proxy-dotnet-core-linux/master/Dockerfile
                       wget https://raw.githubusercontent.com/AdamPaternostro/azure-web-app-nginx-reverse-proxy-dotnet-core-linux/master/start-server.sh
                       wget https://raw.githubusercontent.com/AdamPaternostro/azure-web-app-nginx-reverse-proxy-dotnet-core-linux/master/azurewebsites.net
-Publish locally:      dotnet publish  
-Change directory:     cd ..
 Build Image:          docker build -t nginxreverseproxydotnetcorelinux .
 Run Image Locally:    docker run --rm -it -p 80:80 nginxreverseproxydotnetcorelinux
 Edit Hosts file:      When you go to localhost you will see nginx default page
