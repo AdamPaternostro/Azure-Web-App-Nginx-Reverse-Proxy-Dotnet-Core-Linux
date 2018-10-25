@@ -61,7 +61,9 @@ WebHost.CreateDefaultBuilder(args)
 ### Notes
 Since your application name will be different you will mostlikely need to change:
 * You will need to change line 4 in start-server.sh
+  * https://github.com/AdamPaternostro/azure-web-app-nginx-reverse-proxy-dotnet-core-linux/blob/master/start-server.sh#L4
 * You will need to change line 10 in start-server.sh
+  * https://github.com/AdamPaternostro/azure-web-app-nginx-reverse-proxy-dotnet-core-linux/blob/master/start-server.sh#L10
 * Publish release mode: (dotnet publish --configuration Release)
   * You will probably build in Release mode so you will need to change line 83 in the Dockerfile
   * https://github.com/AdamPaternostro/azure-web-app-nginx-reverse-proxy-dotnet-core-linux/blob/master/Dockerfile#L83
