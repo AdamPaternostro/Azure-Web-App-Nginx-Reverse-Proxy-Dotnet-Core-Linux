@@ -63,4 +63,5 @@ Since your application name will be different you will mostlikely need to change
 * You will need to change line 4 in start-server.sh
 * You will need to change line 10 in start-server.sh
 * Publish release mode: (dotnet publish --configuration Release)
-  * You will probably build in Release mode so you will need to change line 60 in the Dockerfile
+  * You will probably build in Release mode so you will need to change line 83 in the Dockerfile
+  * https://github.com/AdamPaternostro/azure-web-app-nginx-reverse-proxy-dotnet-core-linux/blob/master/Dockerfile#L83
